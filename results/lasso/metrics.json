@@ -1,0 +1,22 @@
+{
+  "method": "lasso",
+  "n_splits": 50,
+  "test_size": 0.3,
+  "test_mse_mean": 0.4310339271331348,
+  "test_mse_sd": 0.07107117586911862,
+  "lambda_mean": 0.022590117164824043,
+  "n_nonzero_mean": 10.94,
+  "n_features": 19,
+  "full_data_lambda": 0.018049870985073546,
+  "full_data_zeroed": [
+    "AtBat",
+    "RBI",
+    "CAtBat",
+    "CHmRun",
+    "CRuns",
+    "CRBI",
+    "CWalks",
+    "Assists",
+    "NewLeague_N"
+  ]
+}

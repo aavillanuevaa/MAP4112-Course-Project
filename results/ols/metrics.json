@@ -1,0 +1,12 @@
+{
+  "method": "ols",
+  "n_splits": 50,
+  "test_size": 0.3,
+  "test_mse_mean": 0.44770310416835046,
+  "test_mse_sd": 0.08330204693668171,
+  "lambda_mean": 0.0,
+  "n_nonzero_mean": 19.0,
+  "n_features": 19,
+  "full_data_lambda": 0.0,
+  "full_data_zeroed": []
+}

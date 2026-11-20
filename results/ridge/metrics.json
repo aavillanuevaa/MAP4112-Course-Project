@@ -1,0 +1,12 @@
+{
+  "method": "ridge",
+  "n_splits": 50,
+  "test_size": 0.3,
+  "test_mse_mean": 0.42732881239579257,
+  "test_mse_sd": 0.06845455733499868,
+  "lambda_mean": 69.86184578176238,
+  "n_nonzero_mean": 19.0,
+  "n_features": 19,
+  "full_data_lambda": 10.974987654930557,
+  "full_data_zeroed": []
+}

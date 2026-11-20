@@ -1,0 +1,37 @@
+Raw shape: (322, 20)
+Missing values: {'Salary': 59}
+After dropping missing Salary: 263 rows, 19 predictors
+Salary ($1000s): min 67.5, median 425.0, max 2460.0
+Skewness: Salary 1.59, log(Salary) -0.18
+Condition number of standardized X: 78
+
+Most correlated predictor pairs (|r|):
+CHits   CAtBat    0.995
+CRuns   CHits     0.985
+CAtBat  CRuns     0.983
+Hits    AtBat     0.964
+CAtBat  CRBI      0.951
+CRBI    CHits     0.947
+CRuns   CRBI      0.946
+CRBI    CHmRun    0.928
+
+VIF (>10 = severe collinearity):
+CHits          503.0
+CAtBat         251.6
+CRuns          162.5
+CRBI           132.0
+CHmRun          46.5
+Hits            30.3
+AtBat           22.9
+CWalks          19.7
+Runs            15.2
+RBI             11.9
+Years            9.3
+HmRun            7.8
+Walks            4.1
+NewLeague_N      4.1
+League_N         4.1
+Assists          2.7
+Errors           2.2
+PutOuts          1.2
+Division_W       1.1
