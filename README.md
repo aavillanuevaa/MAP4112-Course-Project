@@ -91,15 +91,6 @@ random draws each. Writes `results/sample_size/`.
         ├── cv_curve.csv        # CV error vs λ (ridge/lasso)
         └── *.png
 ```
-
-## Adding a Method
-
-1. Create `methods/your_method.py` with a `build_model()` function that returns
-   an sklearn pipeline (`StandardScaler` followed by the estimator). Copy
-   `ridge.py` as a template.
-2. Register it in `methods/__init__.py`.
-3. Run `python train.py --method your_method`, then `python compare.py`.
-
 ## Results
 
 Test MSE on log(Salary) over 50 random 70/30 splits:
